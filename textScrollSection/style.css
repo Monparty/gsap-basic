@@ -1,0 +1,30 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#page1 {
+    width: 100%;
+    height: 100dvh;
+    background-color: rgb(246, 152, 219);
+}
+
+#page2 {
+    width: 100%;
+    height: 100dvh;
+    background-color: rgb(120, 223, 237);
+    padding: 10vh 5vh;
+}
+
+#page3 {
+    width: 100%;
+    height: 100dvh;
+    background-color: rgb(246, 152, 219);
+}
+
+#page2 h1 {
+    font-size: 33vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}

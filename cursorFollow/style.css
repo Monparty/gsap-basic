@@ -1,0 +1,36 @@
+#main {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 70vh;
+    height: 40vh;
+    object-fit: cover;
+    position: relative;
+}
+
+#cursor {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    color: white;
+}
+
+#overlay {
+    width: 70vh;
+    height: 40vh;
+    position: absolute;
+    z-index: 2;
+    background: transparent;
+}
